@@ -42,7 +42,7 @@ const Sidebar = () => {
                       className={`p-2 rounded-full ${
                         pathname === item.href
                           ? 'bg-red-600 '
-                          : 'bg-gray-500 dark:bg-gray-600 group-hover:bg-red-500'
+                          : 'bg-gray-500 dark:bg-gray-700 group-hover:bg-gray-600'
                       } transition-colors duration-300`}
                     >
                       <item.icon
